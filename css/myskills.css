@@ -1,0 +1,34 @@
+/*my skills section */
+.my-skill-section{
+
+    
+    padding: 70px 0px;
+    background-color:rgb(19, 1, 29);;
+}
+
+.skill-image {
+border: 2px solid #f5f2f2;
+border-radius: 9px;
+padding: 10px;
+transition: transform 0.3s ease;
+margin: 9px; 
+
+}
+.skill-image:hover {
+transform: scale(1.1); 
+}
+.skill-image img {
+max-width: 90px; 
+}
+@media (max-width: 767px) {
+.col-md {
+  flex-basis: 50%; 
+}
+}
+
+.my-skill-section {
+padding-top: 90px; }
+
+.my-skill-section p {
+margin-bottom: 30px; 
+}

@@ -1,0 +1,89 @@
+/* Contact Section */
+/* Set the background color for your container */
+.container {
+    background-color: rgb(19, 1, 29);
+}
+
+/* Make the phone, email, and address bold and white */
+.phone, .email, .address {
+    font-weight: bold;
+    color: white;
+}
+
+
+.contact-section {
+    background:rgb(19, 1, 29);
+    padding: 40px 0;
+  }
+  
+  /* Section Header */
+  .section-header h2.section-title {
+    color: #f1acac;
+    font-size: 35px;
+    margin-bottom: 7px;
+  }
+  
+  .section-header p {
+    color: #f5eeee;
+    font-size: 16px;
+  }
+  
+  /* Contact Form Box */
+  .contact-form-box {
+    background: #39054e;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(53, 2, 58, 0.5);
+  }
+  
+  /* Form Group Styling */
+  .form_group {
+    margin-bottom: 15px;
+  }
+  
+  .form_group input[type="text"],
+  .form_group input[type="email"],
+  .form_group input[type="tel"],
+  .form_group select,
+  .form_group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #806f6f;
+    border-radius: 6px;
+    background-color:black;
+  }
+  
+  /* Placeholder Color */
+  ::placeholder {
+    color: #888;
+  }
+  
+  /* Select Box Styling */
+  .tj-nice-select {
+    display: block;
+    height: 40px;
+    background: #840994;
+  }
+  
+  /* Button Styling */
+  .form_btn .btn {
+    background: #46498a; 
+   
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .form_btn .btn:hover {
+    background: linear-gradient(90deg,#4654f9,#814cec, #2a1454);
+    /* background-color: #ad4192; */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .contact-form-box {
+      margin-top: 30px;
+    }
+  }
+  

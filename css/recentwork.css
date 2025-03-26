@@ -1,0 +1,36 @@
+
+/* Style for the recent works section */
+.work-content {
+    
+    background: #470744;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; 
+}
+ 
+.work-content:hover {
+    background-color: #7553a1; 
+    color: #fff; 
+}
+ 
+.work-content h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #eae7ee; 
+    transition: color 0.3s ease, font-size 0.3s ease; 
+}
+ 
+.work-content:hover h3 {
+    color: #fff; 
+    font-size: 25px;} 
+ 
+.work-content p {
+    color: #f8f4f4;
+    font-size: 1em;
+}
+ 
+.work-content:hover p {
+    color: #fff; 
+}
+  

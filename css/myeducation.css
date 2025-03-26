@@ -1,0 +1,38 @@
+  body {
+    background-color: rgb(19, 1, 29);
+  }
+  
+ 
+.my-edu .myexe .my-exe h4 {
+margin-bottom: 0px;
+}
+
+.my-edu .myexe .my-exe  p {
+margin-top: 0px; 
+}
+
+.my-box {
+margin-bottom: 20px;
+background-color: linear-gradient(90deg, #8750f7,#2400ff,#9b8dff);
+ /* background-color: rgb(37, 15, 48);   */
+border-radius: 19px; 
+transition: background-color 0.3s ease;
+margin:15px; 
+}
+
+.my-box:hover {
+  background: linear-gradient(90deg,#4654f9,#814cec, #2a1454);}
+/* background-color: rgb(132, 28, 173); } */
+
+
+.increase-text{
+font-size: 36px; 
+}
+
+
+.myexe {
+padding:300px 6px;
+border-width: 1px;
+
+}  
+

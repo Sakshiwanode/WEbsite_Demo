@@ -1,0 +1,21 @@
+body {
+
+    background-color: rgb(19, 1, 29);
+
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h2,
+p {
+    color: beige;
+}
+
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
